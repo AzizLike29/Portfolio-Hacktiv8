@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Heading dan Navbar */
+div.container {
+  background-color: #7eaa92;
+  padding: 30px;
+  overflow-x: hidden;
+}
+
+h1,
+p.navbar {
+  text-align: center;
+  justify-content: center;
+}
+
+div.navbar-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+a.nav-link.active {
+  margin-right: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+a.nav-link.active:hover {
+  color: chartreuse;
+}
+
+/* Content */
+div.content,
+nav.navbar.bg-success.text-white {
+  max-width: 40%;
+  margin-left: 6%;
+}
+
+h5,
+p.teks {
+  text-align: center;
+}
+
+div.content-1 {
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 4px;
+  background-color: #c8e4b2;
+}
+
+div.content-2 {
+  padding: 20px;
+  margin-top: 15px;
+  background-color: #ffd9b7;
+}
+
+img.img-fluid {
+  border-radius: 4px;
+}
+
+h2 {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Sidebar sticky */
+h5 {
+  text-align: right;
+}
+
+div.sidebar-item {
+  position: absolute;
+  top: 82px;
+  right: 19%;
+  max-width: 30%;
+  margin-top: 60px;
+}
+
+div.widget-sticky-1 {
+  background-color: cornsilk;
+  padding: 10px;
+}
+
+div.widget-sticky-2 {
+  background-color: azure;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Responsive web design */
+@media (min-width: 321px) and (max-width: 400px) {
+  div.container {
+    padding: 15px;
+  }
+
+  h5 {
+    text-align: center;
+  }
+
+  div.content,
+  nav.navbar.bg-success.text-white {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  div.sidebar-item {
+    position: static;
+    max-width: 100%;
+    margin-top: 15px;
+    margin-right: 0;
+  }
+
+  a.nav-link.active {
+    margin-right: 20px;
+    font-size: 14px;
+  }
+
+  div.widget-sticky-1,
+  div.widget-sticky-2 {
+    margin-top: 15px;
+  }
+}
