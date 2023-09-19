@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Heading */
+span.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button.navbar-toggler.ms-auto.collapsed {
+  margin-right: 20px;
+}
+
+/* Content */
+div.jumbotron.text-center {
+  padding: 50px;
+  background-color: #696969;
+  color: white;
+  margin-bottom: 0;
+}
+
+img.rounded {
+  margin: 20px 0;
+}
+
+img.rounded:hover {
+  transform: translate(10px, 10px);
+  transition: transform 0.3s ease;
+}
+
+img.rounded:active {
+  transform: translate(20px, 20px);
+}
+
+button.btn.btn-light.me-2,
+button.btn.btn-secondary {
+  margin: 10px;
+}
+
+/* Footer */
+div.footer {
+  width: 100%;
+  font-weight: bold;
+  background-color: #212529;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+div.footer p {
+  margin-top: 20px;
+}
+
+/* Responsive web design */
+@media (min-width: 210px) and (max-width: 400px) {
+  div.col-md-3.text-end {
+    padding: 5px;
+  }
+
+  a.nav-link.px-2.link-secondary,
+  a.nav-link.dropdown-toggle.px-2.link-secondary {
+    margin-left: 2%;
+  }
+
+  a.dropdown-item:hover {
+    background-color: #333;
+  }
+
+  button.navbar-toggler.ms-auto {
+    margin-right: 20px;
+  }
+}
