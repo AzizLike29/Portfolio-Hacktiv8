@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styling.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/portfolio.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="https://Youtube.com/NomeSports10">ACTIVITY</a></li>
+        <li><a href="https://abdulaziz-85.blogspot.com/">BLOG</a></li>
+        <li><a href="https://instagram.com/abdulaaziz011">STATUS</a></li>
+      </ul>
+
+      <!-- menu hamburger atau toggle -->
+      <div class="menu-toggle">
+        <input type="checkbox" placeholder="text" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <!-- Akhir Header -->
+
+    <!-- Section -->
+    <section>
+      <img src="assets/img/Aziz.jpg" alt="profile" />
+
+      <div class="profil">
+        <h3 id="profilName"></h3>
+        <p id="profilRole"></p>
+        <a class="primary-link" href="https://wa.me/62895618748150">Kontak</a>
+        <a
+          class="secondary-link"
+          href="https://drive.google.com/file/d/1X7AyhIYQeroEPIKiwYfA9m8pInZIWH7V/view?usp=drive_link"
+          >Resume</a
+        >
+      </div>
+
+      <div class="detail">
+        <div id="hasil">
+          <span id="availability">Availability : </span><br /><br />
+          <span id="age">Age : </span><br /><br />
+          <span id="location">Location : </span><br /><br />
+          <span id="experience">Experience : </span><br /><br />
+          <span id="email">Email : </span><br /><br />
+        </div>
+      </div>
+    </section>
+    <!-- Akhir section -->
+
+    <!-- Bagian form -->
+    <div class="form">
+      <label for="name">Name</label><br />
+      <input
+        type="text"
+        name="name"
+        id="inputName"
+        placeholder="Input your name"
+      /><br /><br />
+
+      <label for="role">Role</label><br />
+      <input
+        type="text"
+        name="role"
+        id="inputRole"
+        placeholder="Input your role"
+      /><br /><br />
+
+      <label for="availability">Availability</label><br />
+      <input
+        type="text"
+        name="availability"
+        id="inputAvailability"
+        placeholder="Input your performance"
+      /><br /><br />
+
+      <label for="age">Age</label><br />
+      <input
+        type="number"
+        name="age"
+        id="inputAge"
+        placeholder="Please write your age"
+      /><br /><br />
+
+      <label for="location">Location</label><br />
+      <input
+        type="text"
+        name="location"
+        id="inputLocation"
+        placeholder="Input your home address"
+      /><br /><br />
+
+      <label for="experience">Years Experience</label><br />
+      <input
+        type="number"
+        name="experience"
+        id="inputExperience"
+        placeholder="How many years of experience"
+      /><br /><br />
+
+      <label for="email">Email</label><br />
+      <input
+        type="email"
+        name="email"
+        id="inputEmail"
+        placeholder="Please write down your active email"
+      /><br /><br />
+
+      <button type="submit" class="submit" id="submitButton">Submit</button>
+    </div>
+    <!-- Akhir form -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
