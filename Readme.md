@@ -5,6 +5,9 @@
 <h2>Tampilan Portfolio</h2>
 
 <p>Tampilan Website</p>
-![#2](https://github.com/AzizLike29/Portfolio-Hacktiv8/assets/119909214/99ea8934-f768-4229-a2ad-e26cdc90a09f)
+
+![#2](https://github.com/AzizLike29/Portfolio-Hacktiv8/assets/119909214/f3b6eb18-7674-4583-b8f3-8bb55c762509)
 
 <p>Tampilan Mobile</p>
+
+![mobile](https://github.com/AzizLike29/Portfolio-Hacktiv8/assets/119909214/bca2c971-5bcd-4fc4-9452-7aababb76848)
