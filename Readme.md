@@ -1,3 +1,10 @@
+```bash
+Nama          : Abdul Aziz Firdaus
+Kelas         : WDP-KS13
+Kode Peserta  : WDP-KS13-022
+Pengajar      : Melanaumi Apriza
+```
+
 <h2>Tampilan Home</h2>
 
 <p>Tampilan Website</p>
